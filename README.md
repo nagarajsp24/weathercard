@@ -1,7 +1,7 @@
 # Weather Application
 
 This is a simple weather application that allows users to check the weather conditions of a city.
-  Usage
+ # Usage
 =>Enter the name of the city in the search input.
 =>Click the search button to fetch and display the current weather conditions for the specified city.
 Built With
