@@ -11,12 +11,13 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2.5.4  # Use the latest compatible version
+        uses: actions/checkout@v2  # Use the latest compatible version
 
       - name: Set up Node.js
         uses: actions/setup-node@v4  # Use v4 for Node.js 20
         with:
           node-version: '20'
+
 
 
 
