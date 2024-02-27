@@ -1,9 +1,10 @@
-const apiKey = "fa47d2d49e985f4ba9e45f7d4a084b1a";
+const apiKey = process.env.API_KEY;
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
 const weatherIcon = document.getElementById("imgChange");
+requestAnimationFrame('dotenv').config();
 
 async function checkweather(city){
     const response = await fetch (`${apiUrl}${city}&appid=${apiKey}`);
