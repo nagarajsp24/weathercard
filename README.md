@@ -17,6 +17,20 @@ Before you begin, ensure you have met the following requirements:
 
 - Internet connection to fetch weather data from the OpenWeatherMap API.
 
+  Usage
+=>Enter the name of the city in the search input.
+=>Click the search button to fetch and display the current weather conditions for the specified city.
+Built With
+=>HTML
+=>CSS
+=>JavaScript
+  API Used
+=>OpenWeatherMap API
+=>Authors : Nagaraj S Penagondala
+  Acknowledgments
+=>Icons by Iconmonstr
+=>Weather images by Freepik
+
 ## Getting Started
 
 To get started with the project, follow these steps:
@@ -26,16 +40,4 @@ To get started with the project, follow these steps:
 ```bash
 git clone https://github.com/yourusername/weather-application.git
 
-Usage
-=>Enter the name of the city in the search input.
-=>Click the search button to fetch and display the current weather conditions for the specified city.
-Built With
-=>HTML
-=>CSS
-=>JavaScript
-API Used
-=>OpenWeatherMap API
-=>Authors : Nagaraj S Penagondala
-Acknowledgments
-=>Icons by Iconmonstr
-=>Weather images by Freepik
+
